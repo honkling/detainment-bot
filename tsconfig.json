@@ -1,0 +1,15 @@
+{
+	"include": ["src/"],
+	"exclude": ["node_modules/"],
+	"compilerOptions": {
+		"outDir": "dist/",
+		"target": "ES2022",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"lib": ["ES2022", "DOM"],
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true
+	}
+}

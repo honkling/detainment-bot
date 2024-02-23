@@ -1,0 +1,21 @@
+{
+  "name": "detainment",
+  "version": "0.1.0",
+  "description": "discord bot for detainment",
+  "main": "dist/index.js",
+  "repository": "https://github.com/honkling/detainment-bot.git",
+  "author": "honkling",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  },
+  "scripts": {
+	"build": "tsc -p tsconfig.json",
+	"start": "node dist"
+  }
+}
