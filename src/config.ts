@@ -7,7 +7,7 @@ const configFile = join(__dirname, "../config.toml");
 
 export const Config = {
 	token: "",
-	a: { b: "" }
+	guild: ""
 }
 
 export function reloadConfig(): typeof Config {

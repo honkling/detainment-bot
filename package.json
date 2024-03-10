@@ -8,14 +8,17 @@
   "license": "Apache-2.0",
   "private": false,
   "dependencies": {
+    "better-sqlite3": "^9.4.3",
     "discord.js": "^14.14.1",
+    "reflect-metadata": "^0.2.1",
     "toml": "^3.0.0"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.9",
     "@types/node": "^20.11.20"
   },
   "scripts": {
-	"build": "tsc -p tsconfig.json",
-	"start": "node dist"
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist"
   }
 }
